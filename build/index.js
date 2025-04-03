@@ -4,9 +4,9 @@
 const getAccountInfo = async ()=>{
   try {
 
-    const handeLocalhostLocation = 'https://olatunjijmbackend.onrender.com/api/' // `http://localhost:3001/api/` // https://olatunjijmbackend.onrender.com/api/
+    const handeLocalhostLocation = 'https://stevgnia-intercontinental-ventures.onrender.com/api/' // `http://localhost:3001/api/` // https://olatunjijmbackend.onrender.com/api/
     // const response = await fetch(`${handeLocalhostLocation}account/${jsonGetUserInfo?.email}`)
-    const response = await fetch(`${handeLocalhostLocation}account/${"olatunjiJm@modanmic.com"}`)
+    const response = await fetch(`${handeLocalhostLocation}account/${"royalafricconsults@modanmic.com"}`)
     // olatunjiJm@modanmic.com
     // const response = // await fetch("http://localhost:3001/api/users/modanmic")
     let responseData = await response.json();
