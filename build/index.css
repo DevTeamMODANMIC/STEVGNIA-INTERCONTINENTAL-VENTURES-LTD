@@ -18,6 +18,9 @@ p, a, li, button {
   font-weight: 100;
   font-style: normal;
 }
+a{
+  font-weight: bolder;
+}
 
 .body-container{
   width: 100%;
@@ -67,7 +70,7 @@ nav>ol>li>a{
   font-size: 18px;
   color: skyblue;
   transition: 3s;
-  font-weight: 100px;
+  font-weight: bold;
   transition-duration: 20s;
 }
 nav>ol>li>a:hover{
