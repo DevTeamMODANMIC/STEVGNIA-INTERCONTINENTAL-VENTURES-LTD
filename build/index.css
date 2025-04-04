@@ -15,6 +15,7 @@ p, a, li, button {
   font-weight: 100;
   font-style: normal;
 }
+
 .body-container{
   width: 100%;
   height: 100%;
@@ -63,6 +64,7 @@ nav>ol>li>a{
   font-size: 18px;
   color: skyblue;
   transition: 3s;
+  font-weight: 100px;
   transition-duration: 20s;
 }
 nav>ol>li>a:hover{
@@ -303,6 +305,7 @@ section{
   align-items: center;
   justify-content: space-evenly;
   background-color: #d5d5d5bf;
+  padding: 20px 0;
 }
 .section-install{
   width: 40%;
@@ -1003,6 +1006,9 @@ section{
 }
 .button-center:hover{
   color: brown;
+}
+.sec-info-desc{
+  padding: 10px;
 }
 @media only screen and (min-width: 240px) and (max-width: 750px) {
   .responsive-nav{
