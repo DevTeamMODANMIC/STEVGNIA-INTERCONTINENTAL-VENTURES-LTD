@@ -587,7 +587,7 @@ section{
 }
 .section-about-us{
   width: 100%;
-  height: 150vh;
+  height: 250vh;
   background-color: white;
   display: flex;
   align-items: center;
@@ -1127,7 +1127,7 @@ section{
     height: 100vh;
   }
   .section-about-us {
-    height: 200vh;
+    height: 300vh;
   }
   .section-vison-mission-container{
     display: block;
